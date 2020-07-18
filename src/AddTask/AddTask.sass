@@ -1,0 +1,58 @@
+.modal 
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    max-width: 500px
+    width: 100%
+    padding: 30px 
+    border-radius: 15px
+    background: #fff
+    box-shadow: 0 2px 3px 2px rgba(0,0,0,0.2)
+    z-index: 100
+    &__title 
+        margin: 0 0 20px
+        text-align: center
+    &__close 
+        display: block 
+        width: 30px
+        height: 30px
+        position: absolute 
+        top: 20px
+        right: 20px
+
+
+.t-form 
+    &__textarea, &__input 
+        display: block 
+        width: 100%
+        height: 80px
+        margin: 10px 0
+        padding: 10px 20px
+        border: none
+        outline: none
+        border-radius: 10px
+        box-shadow: 0 2px 3px 2px rgba(0,0,0,0.2)
+        resize: none
+        box-sizing: border-box
+    &__input 
+        height: 30px
+        &--date 
+            width: auto
+    &__select 
+        padding: 5px 10px
+        margin-left: 10px
+        border: none
+        box-shadow: 0 2px 3px 2px rgba(0,0,0,0.2)
+        outline: none 
+        border-radius: 5px
+    &__submit 
+        margin-top: 30px
+        font-size: 16px !important
+    &__wrap 
+        width: 100%
+        margin-bottom: 20px
+        &:last-child 
+            margin-bottom: 0
+        &--half 
+            width: 50%

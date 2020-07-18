@@ -1,0 +1,118 @@
+{
+  "statuses": [
+    {
+      "id": 1,
+      "text": "Новый",
+      "label": "new"
+    },
+    {
+      "id": 2,
+      "text": "В работе",
+      "label": "work"
+    },
+    {
+      "id": 3,
+      "text": "Завершено",
+      "label": "complete"
+    }
+  ],
+  "priorities": [
+    {
+      "id": 1,
+      "text": "Низкий",
+      "label": "low"
+    },
+    {
+      "id": 2,
+      "text": "Средний",
+      "label": "middle"
+    },
+    {
+      "id": 3,
+      "text": "Высокий",
+      "label": "high"
+    }
+  ],
+  "tasks": [
+    {
+      "text": "Test task",
+      "planDate": "26.07.2020",
+      "factDate": "18.07.2020",
+      "statusId": 3,
+      "priorityId": 2,
+      "id": 7
+    },
+    {
+      "text": "New test task",
+      "planDate": "24.07.2020",
+      "factDate": "-",
+      "statusId": 1,
+      "priorityId": 1,
+      "id": 8
+    },
+    {
+      "text": "new task 2 ",
+      "planDate": "22.07.2020",
+      "factDate": "-",
+      "statusId": 2,
+      "priorityId": 2,
+      "id": 9
+    },
+    {
+      "text": "qwqwqwqw",
+      "planDate": "16.07.2020",
+      "factDate": "18.07.2020",
+      "statusId": 3,
+      "priorityId": 2,
+      "id": 10
+    },
+    {
+      "text": "neefqef",
+      "planDate": "16.07.2020",
+      "factDate": "18.07.2020",
+      "statusId": 3,
+      "priorityId": 2,
+      "id": 11
+    },
+    {
+      "text": "Новая задача",
+      "planDate": "29.07.2020",
+      "factDate": "18.07.2020",
+      "statusId": 3,
+      "priorityId": 2,
+      "id": 12
+    },
+    {
+      "text": "Новая задача 1",
+      "planDate": "27.07.2020",
+      "factDate": "-",
+      "statusId": 2,
+      "priorityId": 3,
+      "id": 13
+    },
+    {
+      "text": "Купить бритву",
+      "planDate": "29.07.2020",
+      "factDate": "-",
+      "statusId": 1,
+      "priorityId": 1,
+      "id": 14
+    },
+    {
+      "text": "Купить носки ",
+      "planDate": "20.07.2020",
+      "factDate": "18.07.2020",
+      "statusId": 3,
+      "priorityId": 3,
+      "id": 15
+    },
+    {
+      "text": "Купить презервативы",
+      "planDate": "19.07.2020",
+      "factDate": "18.07.2020",
+      "statusId": 3,
+      "priorityId": 3,
+      "id": 16
+    }
+  ]
+}
